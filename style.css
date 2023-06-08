@@ -1,0 +1,35 @@
+/*
+Theme Name: Aventus Test
+Template: blogus
+*/
+
+.bs-default .navbar-brand {
+    max-height: 60px;
+}
+
+.bs-default .bs-header-main .inner {
+    padding-top: 1.5rem;
+}
+
+.bs-menu-full {
+    display: none;
+}
+
+.bs-footer-bottom-area .align-items-center {
+    text-align: center;
+    justify-content: center;
+}
+
+.bs-footer-bottom-area .navbar-brand{
+    margin-right: 0;
+}
+
+.bs-footer-bottom-area .footer-logo img{
+    filter: brightness(0) invert(1);
+    max-height: 30px;
+}
+
+.bs-sidebar .bs-widget .books-terms-list__item.active{
+    color: #0025ff;
+    font-weight: 500;
+}
