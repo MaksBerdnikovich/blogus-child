@@ -158,6 +158,8 @@ function blogus_book_filter_callback() {
 
     $request = $_POST['term'];
 
+    if (empty($request)) return;
+
     $args = [];
     if ($request !== 'all') {
         $args = [

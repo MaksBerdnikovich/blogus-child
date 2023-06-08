@@ -33,3 +33,7 @@ Template: blogus
     color: #0025ff;
     font-weight: 500;
 }
+
+.comments-area .comment-body{
+    padding: 0;
+}
